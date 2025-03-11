@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Harry Potter';
+  src: url('../font/HarryPotter.eot');
+  src: url('../font/HarryPotter.eot?#iefix') format('embedded-opentype'),
+    url('../font/HarryPotter.woff') format('woff'),
+    url('../font/HarryPotter.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../font/Roboto-Bold.eot');
+  src: url('../font/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../font/Roboto-Bold.woff') format('woff'),
+  url('../font/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  }
