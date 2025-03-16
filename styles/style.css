@@ -27,6 +27,7 @@ section {
 .note {
   font-family: Roboto Bold, sans-serif;
 }
+
 .italics {
   font-style: italic;
 }
@@ -58,8 +59,9 @@ p {
 .header {
   display: flex;
   flex-direction: column;
+  align-items: center;
   position: fixed;
-  right: 10git px;
+  right: 10px;
   z-index: 1;
 }
 
@@ -99,6 +101,15 @@ p {
   text-decoration: none;
 }
 
+.header__logo {
+  max-width: 400px;
+  transition: transform 2s;
+}
+
+.header__logo:hover {
+  transform: rotateY(360deg);
+}
+
 .book {
   position: absolute;
   left: 20px;
@@ -118,4 +129,16 @@ p {
 
 .footer__link:hover {
   color: rgb(37, 215, 37);
+}
+
+.main__two {
+  font-size: 35px;
+  text-align:justify;
+}
+
+.main__two-table {
+  margin-top: 35px;
+}
+td {
+  padding: 10px;
 }
