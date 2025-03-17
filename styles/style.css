@@ -116,6 +116,10 @@ p {
   transform: rotateY(360deg);
 }
 
+#snitch{
+  margin-top: 250px;
+}
+
 .book {
   position: absolute;
   left: 20px;
@@ -157,5 +161,11 @@ td {
 }
 
 .death {
+  color: black;
   font-family: Roboto Bold, sans-serif;
+  text-decoration: none;
+}
+
+.death:hover {
+  color: rgb(37, 215, 37);
 }
