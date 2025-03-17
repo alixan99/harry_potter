@@ -5,10 +5,15 @@
 * {
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(../images/backrgound_book.avif);
-  background-repeat:round;
-  background-size:auto;
+  background-repeat: round;
+  background-size: auto;
 }
 
 .container {
@@ -54,7 +59,7 @@ h2:hover {
 
 p {
   padding: 10px 0;
-  text-indent:10px
+  text-indent: 10px
 }
 
 .header {
@@ -75,8 +80,8 @@ p {
 
 .header__nav {
   background-image: url(../images/backrgound_book.avif);
-  background-repeat:no-repeat;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 20px;
   border: 3px solid #bfbb77;
   box-shadow: 10px -10px 7px 0px #666214;
@@ -123,6 +128,7 @@ p {
 }
 
 .footer {
+  padding-top: 15px;
   font-size: 20px;
   display: flex;
   justify-content: center;
@@ -134,13 +140,18 @@ p {
 
 .main__two {
   font-size: 35px;
-  text-align:justify;
+  text-align: justify;
 }
 
 .main__two-table {
   margin-top: 35px;
   border: 5px solid black;
 }
+
+.main__two-table:hover {
+  border-color: rgb(37, 215, 37);
+}
+
 td {
   padding: 20px;
 }
