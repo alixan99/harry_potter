@@ -54,7 +54,8 @@ h2 {
 }
 
 h2:hover {
-  color: rgb(37, 215, 37);
+  text-shadow: 2px -2px rgb(10, 206, 10);
+  /* color: rgb(37, 215, 37); */
 }
 
 p {
@@ -84,14 +85,15 @@ p {
   background-size: cover;
   font-size: 20px;
   border: 3px solid #bfbb77;
-  box-shadow: 10px -10px 7px 0px #666214;
+  box-shadow: 5px -5px 10px 0px #666214;
   border-radius: 15px;
   padding: 30px;
   margin: 0 auto;
 }
 
 .header__nav:hover {
-  border-color: rgb(37, 215, 37);
+  box-shadow: 10px -10px 10px 0px #666214;
+  /* border-color: rgb(37, 215, 37); */
 }
 
 .link__chapter {
@@ -99,7 +101,7 @@ p {
 }
 
 .header__link:hover {
-  color: rgb(37, 215, 37);
+  text-shadow: 2px -2px rgb(10, 206, 10);
 }
 
 .header__link, .header__link:visited {
@@ -139,7 +141,7 @@ p {
 }
 
 .footer__link:hover {
-  color: rgb(37, 215, 37);
+  text-shadow: 2px -2px rgb(10, 206, 10);
 }
 
 .main__two {
@@ -149,23 +151,25 @@ p {
 
 .main__two-table {
   margin-top: 35px;
-  border: 5px solid black;
+  border: 3px solid black;
+  box-shadow: 5px -5px 10px 0px #666214;
 }
 
 .main__two-table:hover {
-  border-color: rgb(37, 215, 37);
+  box-shadow: 10px -10px 10px 0px #666214;
 }
 
 td {
+  line-height: 100%;
   padding: 20px;
 }
 
 .death {
   color: black;
-  font-family: Roboto Bold, sans-serif;
+  font-family: Harry Potter, sans-serif;
   text-decoration: none;
 }
 
 .death:hover {
-  color: rgb(37, 215, 37);
+  text-shadow: 2px -2px rgb(10, 206, 10);
 }
